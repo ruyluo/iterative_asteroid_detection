@@ -7,7 +7,7 @@ A pipeline for detecting asteroids (faint-moving objects). We refer to our paper
 
 - For the pre-processing steps, run
 ```
-python 0_crop_data.py
+python 0_read_tess_fits_data.py
 python 1_flatfield_destrap_dva.py
 python 2_bright_asteroid_reduction.py
 ```
